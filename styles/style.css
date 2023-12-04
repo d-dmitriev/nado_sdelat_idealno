@@ -1,7 +1,7 @@
 body {
   position: relative;
   min-width: 800px;
-  display: grid;
+  display: flex;
 }
 
 body::before {
@@ -20,7 +20,7 @@ body::before {
   letter-spacing: 4.06px;
   text-align: center;
   text-transform: uppercase;
-  margin: 60px auto 0;
+  margin: 60px auto auto;
 }
 
 .page__heading:hover {
@@ -34,15 +34,12 @@ body::before {
   font-family: Raleway, sans-serif;
   color: #000;
   font-size: 35px;
-  font-style: normal;
   font-weight: 400;
   line-height: 35px; /* 100% */
-  letter-spacing: normal;
   border-radius: 20px;
   border: 2px solid;
-  background: #fff;
   box-shadow: 0 12px;
-  text-transform: none;
+  background: #fff;
   top: 180px;
   right: 20px;
   padding: 36px 44px;
